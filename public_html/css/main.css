@@ -1,20 +1,43 @@
 /*css reset*/
 html,*{margin:0;padding:0;font-size:100%;}
 ul,ol,li{list-style:none;}
+a{text-decoration:none; color:white;}
 
 
 /*start css*/
-body{background:#15191f; }
+body{background:#15191f; font-family: 'Open Sans', sans-serif;}
 
 /*Header Area*/
 header{width:100%; background:#191919;} 
-    #logoArea{width:1000px; margin:0 auto; margin-top:15px; position:relative;}
-    #socialLinks{position:absolute; top:5px;right:0; width:156px;}
+    #logoArea{width:100%; margin:0 auto; margin-top:1.5625em /*25px/16*/; margin-bottom:1.5625em /*25px/16*/; position:relative;}
+    #socialLinks{position:absolute; top:10px;right:0; width:156px; display:none;}
     #socialLinks a{display:block; width:40px; height:40px; background:url(../images/socialicons.jpg) top left no-repeat;
                     float:left; margin-right:12px;}
         #socialLinks a.facebook{background-position: 0;}
         #socialLinks a.twitter{background-position: -40px 0;}
         #socialLinks a.instagram{background-position: -80px 0;}
+    /*navigation*/
+    nav{background:#18a0da; width:100%;}
+    nav ul{width:100%; margin:0 auto;}
+    nav a{display:block; padding-top:1.25em /*20px/16*/; padding-bottom:1.25em/*20px/16*/; text-align:center; border-top:1px solid #1794cc;}
 
+
+
+
+
+
+
+/********/
+/*DESKTOP ( MOVE THIS TO SEPERATE STYLESHEET)*/
+/*This should load all the desktop graphics / styles / the heavy stuff blabla*/
+/********/
+
+@media screen and (min-width:1000px) { 
+
+#logoArea{width:1000px;}
+nav ul{width:1000px;}
+    
 /*Content Area*/
 #contentArea{background:#15191f url(../images/texturebg.jpg) no-repeat;}
+    
+}
