@@ -7,7 +7,7 @@ ul,ol,li{list-style:none;}
 body{background:#15191f; }
 
 /*Header Area*/
-header{width:100%; background:#191919;}
+header{width:100%; background:#191919;} 
     #logoArea{width:1000px; margin:0 auto; margin-top:15px; position:relative;}
     #socialLinks{position:absolute; top:5px;right:0; width:156px;}
     #socialLinks a{display:block; width:40px; height:40px; background:url(../images/socialicons.jpg) top left no-repeat;
