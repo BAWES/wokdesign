@@ -9,6 +9,7 @@ body{background:#15191f; font-family: 'Open Sans', sans-serif;}
 
 /*Header Area*/
 header{width:100%; background:#191919;} 
+    #logo{margin-left:5%;}
     #logoArea{width:100%; margin:0 auto; margin-top:1.25em /*20px/16*/; margin-bottom:1.5625em /*25px/16*/; position:relative;}
     #socialLinks{position:absolute; top:10px;right:0; width:156px; display:none;}
     #socialLinks a{display:block; width:40px; height:40px; background:url(../images/socialicons.jpg) top left no-repeat;
@@ -16,6 +17,9 @@ header{width:100%; background:#191919;}
         #socialLinks a.facebook{background-position: 0;}
         #socialLinks a.twitter{background-position: -40px 0;}
         #socialLinks a.instagram{background-position: -80px 0;}
+    #navLink{display:block; width:53px; height:53px; background:url(../images/navsprite.jpg) 15px 17px no-repeat;
+                position:absolute; top:0; right:5%;}
+    #navLink.active, #navLink:hover{background-position:15px -36px;}
     /*navigation*/
     nav{background:#18a0da; width:100%;}
     nav ul{width:100%; margin:0 auto;}
@@ -35,6 +39,7 @@ header{width:100%; background:#191919;}
 @media screen and (min-width:1000px) { 
 
 #logoArea{width:1000px;}
+#logo{margin-left:0;}
 #socialLinks{display:block;}
 nav ul{width:1000px;}
     
