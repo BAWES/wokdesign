@@ -10,9 +10,13 @@
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
         <link rel="icon" href="favicon.ico" type="image/x-icon">
         <script src="js/jquery-1.11.0.min.js"></script>
+        <!--[if lt IE9]>
+        <script src="js/html5shiv.js"></script>
+        <script src="js/css3mediaqueries.js"></script>
+        <![endif]-->
         <script>
             $(document).ready(function() {
-                alert($(window).width());
+                //alert($(window).width());
             });
         </script>
     </head>
@@ -26,7 +30,7 @@
                     <li><a href="#" class='twitter'></a></li>
                     <li><a href="#" class='instagram'></a></li>
                 </ul>
-                
+
                 <a href="#" id="navLink"></a>
             </div>
 
