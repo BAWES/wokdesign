@@ -14,7 +14,7 @@ br.clear{clear:both;}
 /*Header Area*/
 header{width:100%; background:#191919;} 
     #logo{margin-left:5%;}
-    #logoArea{width:100%; margin:0 auto; margin-top:1.25em /*20px/16*/; margin-bottom:1.5625em /*25px/16*/; position:relative;}
+    #logoArea{width:100%; margin:0 auto; margin-top:1.25em;/*20px/16*/ margin-bottom:1.5625em;/*25px/16*/ position:relative;}
     #socialLinks{position:absolute; top:10px;right:0; width:156px; display:none;}
     #socialLinks a{display:block; width:40px; height:40px; background:url(../images/socialicons.jpg) top left no-repeat;
                     float:left; margin-right:12px;}
@@ -25,9 +25,9 @@ header{width:100%; background:#191919;}
                 position:absolute; top:0; right:5%;}
     #navLink.active, #navLink:hover{background-position:15px -36px;}
     /*navigation*/
-    nav{background:#18a0da; width:100%; padding-top:148px; position:relative; display:none;}
+    nav{background:#18a0da; width:100%; padding-top:9.25em;/*148px/16*/ position:relative; display:none;}
     nav ul{width:100%; margin:0 auto;}
-    nav a{display:block; padding-top:1.375em /*22px/16*/; padding-bottom:1.375em/*22px/16*/; text-align:center; 
+    nav a{display:block; padding-top:1.375em;/*22px/16*/ padding-bottom:1.375em;/*22px/16*/ text-align:center; 
             border-top:1px solid #1794cc; font-size:0.875em;/*14px*/}
 
     #signin a{position:absolute; top:0; left:0;width:100%; text-align: center; 
@@ -44,19 +44,19 @@ header{width:100%; background:#191919;}
 
 
 /*ICON FIXES IN MULTIPLE SCREEN SIZES [Mobile]*/
-@media screen and (min-width:24.8125em/*397px*/) { 
+@media screen and (min-width:24.8125em) { /*397px*/
     #signin a{background-position: 40% 50%;}
     #orderOnline a, #delivery a{background-position: 15% 50%;}  
 }
-@media screen and (min-width:28.125em/*450px*/) { 
+@media screen and (min-width:28.125em) { /*450px*/
     #signin a{background-position: 40% 50%;}
     #orderOnline a, #delivery a{background-position: 18% 50%;}   
 }
-@media screen and (min-width:32.8125em/*525px*/) { 
+@media screen and (min-width:32.8125em) { /*525px*/
     #signin a{background-position: 42% 50%;}
     #orderOnline a, #delivery a{background-position: 23% 50%;}  
 }
-@media screen and (min-width:45.625em/*730px*/) { 
+@media screen and (min-width:45.625em) { /*730px*/
     #signin a{background-position: 45% 50%;}
     #orderOnline a, #delivery a{background-position: 31% 50%;}  
 }
@@ -77,22 +77,22 @@ header{width:100%; background:#191919;}
                 border-top:1px solid #1794cc; border-right:0; font-weight:400; background:0;
                 border-bottom:0; padding-top:1.4375em /*22px/16*/; padding-bottom:1.4375em/*22px/16*/;}
 
-#logoArea{width:62.5em/*1000px/16*/;}
+#logoArea{width:62.5em;/*1000px/16*/}
 #logo{margin-left:0;}
 #socialLinks{display:block;}
 nav{padding-top:0; display:block !important; border-top:1px solid #1bb2f2; border-bottom:1px solid #062533;}
-nav ul{width:62.5em/*1000px/16*/;}
+nav ul{width:62.5em;/*1000px/16*/}
 #navLink{display:none;}
 /*DONE RESET*/
 
-nav a,#signin a,#delivery a, #orderOnline a{padding-left:1.84615384615385em/*24px/13*/; padding-right:1.84615384615385em/*24px/13*/; 
+nav a,#signin a,#delivery a, #orderOnline a{padding-left:1.84615384615385em;/*24px/13*/ padding-right:1.84615384615385em;/*24px/13*/ 
                 padding-top:1.4375em; padding-bottom:1.4375em;
-                float:left; font-size:0.8125em/*13px*/; border-left:1px solid #1794cb; border-top:0;
+                float:left; font-size:0.8125em;/*13px*/ border-left:1px solid #1794cb; border-top:0;
 }
 #delivery a, #orderOnline a{font-weight:600; padding-top:0.82em; padding-bottom:0.88em; text-align:left;}
-#delivery a span,#orderOnline a span{font-size:0.84615384615385em/*11px/13*/;}
+#delivery a span,#orderOnline a span{font-size:0.84615384615385em;/*11px/13*/}
 #delivery a{border-left:0; background:url(../images/phoneicon.png) 0 50% no-repeat;}
-#orderOnline a{background:url(../images/carticon.png) 17% 50% no-repeat; padding-left:4.30769230769231em /*56px/13*/;}
+#orderOnline a{background:url(../images/carticon.png) 17% 50% no-repeat; padding-left:4.30769230769231em;/*56px/13*/}
 #signin a{
     padding-top:1em; 
     padding-bottom:1em;
