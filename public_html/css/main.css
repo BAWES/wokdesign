@@ -10,16 +10,10 @@ body{background:#15191f; font-family: 'Open Sans', sans-serif;}
 
 /*generic css*/
 br.clear{clear:both;}
-.rounded{
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -khtml-border-radius: 10px;
-    border-radius: 10px;
-}
 
 /*Header Area*/
 header{width:100%; background:#191919;} 
-    #logo{margin-left:5%;}
+    #logo{margin-left:5%; width:15em;}
     #logoArea{width:100%; margin:0 auto; margin-top:1.25em /*20px/16*/; margin-bottom:1.5625em /*25px/16*/; position:relative;}
     #socialLinks{position:absolute; top:10px;right:0; width:156px; display:none;}
     #socialLinks a{display:block; width:40px; height:40px; background:url(../images/socialicons.jpg) top left no-repeat;
@@ -92,10 +86,16 @@ nav ul{width:62.5em/*1000px/16*/;}
 
 nav a,#signin a,#delivery a, #orderOnline a{padding-left:1.84615384615385em/*24px/13*/; padding-right:1.84615384615385em/*24px/13*/; 
                 padding-top:1.4375em; padding-bottom:1.4375em;
-                float:left; font-size:0.8125em/*13px*/;}
-#delivery a, #orderOnline a{font-weight:600; padding-top:1em; text-align:left;}
+                float:left; font-size:0.8125em/*13px*/; border-left:1px solid #1794cb; border-top:0;
+}
+#delivery a, #orderOnline a{font-weight:600; padding-top:0.94em; padding-bottom:1em; text-align:left;}
 #delivery a span,#orderOnline a span{font-size:0.84615384615385em/*11px/13*/;}
-#signin a{background:#11739d;}
+#signin a{background:#11739d;
+-moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    border-radius: 4px;
+}
 
     
 /*Content Area*/
