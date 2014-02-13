@@ -22,7 +22,7 @@ header{width:100%; background:#191919;}
                 position:absolute; top:0; right:5%;}
     #navLink.active, #navLink:hover{background-position:15px -36px;}
     /*navigation*/
-    nav{background:#18a0da; width:100%; padding-top:148px; position:relative;}
+    nav{background:#18a0da; width:100%; padding-top:148px; position:relative; display:none;}
     nav ul{width:100%; margin:0 auto;}
     nav a{display:block; padding-top:1.375em /*22px/16*/; padding-bottom:1.375em/*22px/16*/; text-align:center; 
             border-top:1px solid #1794cc; font-size:0.875em;/*14px*/}
@@ -71,7 +71,7 @@ header{width:100%; background:#191919;}
 #logoArea{width:1000px;}
 #logo{margin-left:0;}
 #socialLinks{display:block;}
-nav{padding-top:0}
+nav{padding-top:0; display:block !important;}
 nav ul{width:1000px;}
 #navLink{display:none;}
 
