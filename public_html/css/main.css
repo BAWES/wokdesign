@@ -8,6 +8,15 @@ a,img{border:none; /*IE Border Fix*/}
 /*start css*/
 body{background:#15191f; font-family: 'Open Sans', sans-serif;}
 
+/*generic css*/
+br.clear{clear:both;}
+.rounded{
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px;
+}
+
 /*Header Area*/
 header{width:100%; background:#191919;} 
     #logo{margin-left:5%;}
@@ -18,7 +27,7 @@ header{width:100%; background:#191919;}
         #socialLinks a.facebook{background-position: 0;}
         #socialLinks a.twitter{background-position: -40px 0;}
         #socialLinks a.instagram{background-position: -80px 0;}
-    #navLink{display:block; width:53px; height:53px; background:url(../images/navsprite.jpg) 15px 17px no-repeat;
+    #navLink{display:block; width:53px; height:53px; background:url(../images/navsprite.jpg) 0.9375em/*15px/16*/ 1.0625em/*17px/16*/ no-repeat;
                 position:absolute; top:0; right:5%;}
     #navLink.active, #navLink:hover{background-position:15px -36px;}
     /*navigation*/
@@ -30,29 +39,29 @@ header{width:100%; background:#191919;}
     #signin a{position:absolute; top:0; left:0;width:100%; text-align: center; 
               background:#11739d url(../images/usericon.png) no-repeat 38% 50%; border-top:0;
                 border-bottom:2px solid #17a8e6; padding-top:2.10375em; padding-bottom:2.10375em;}
-    #orderOnline a{position:absolute; top:80px; left:0; width:49%; border-right:1px solid #1794cb; font-weight:600; border-top:0; padding-top:1.2em;
+    #orderOnline a{position:absolute; top:80px; left:0; width:49%; border-right:1px solid #1794cb; 
                 background:url(../images/carticon.png) no-repeat;}
-    #delivery a{position:absolute; top:80px; left:50%; width:50%; font-weight:600; border-top:0; padding-top:1.2em;
+    #delivery a{position:absolute; top:80px; left:50%; width:50%; 
                 background:url(../images/phoneicon.png) no-repeat;}
-    #orderOnline a, #delivery a{background-position: 5% 50%;}
-    #delivery a span,#orderOnline a span{display:block; font-size:0.6875em; color:#11739d;}
+    #orderOnline a, #delivery a{background-position: 5% 50%; font-weight:600; border-top:0; padding-top:1.2em;}
+    #delivery a span,#orderOnline a span{display:block; font-size:0.6875em; color:#11739d; font-weight:400;}
 
 
 
 /*ICON FIXES IN MULTIPLE SCREEN SIZES [Mobile]*/
-@media screen and (min-width:397px) { 
+@media screen and (min-width:24.8125em/*397px*/) { 
     #signin a{background-position: 40% 50%;}
     #orderOnline a, #delivery a{background-position: 15% 50%;}  
 }
-@media screen and (min-width:450px) { 
+@media screen and (min-width:28.125em/*450px*/) { 
     #signin a{background-position: 40% 50%;}
     #orderOnline a, #delivery a{background-position: 18% 50%;}   
 }
-@media screen and (min-width:525px) { 
+@media screen and (min-width:32.8125em/*525px*/) { 
     #signin a{background-position: 42% 50%;}
     #orderOnline a, #delivery a{background-position: 23% 50%;}  
 }
-@media screen and (min-width:730px) { 
+@media screen and (min-width:45.625em/*730px*/) { 
     #signin a{background-position: 45% 50%;}
     #orderOnline a, #delivery a{background-position: 31% 50%;}  
 }
@@ -66,19 +75,27 @@ header{width:100%; background:#191919;}
 /*This should load all the desktop graphics / styles / the heavy stuff blabla*/
 /********/
 
-@media screen and (min-width:1000px) { 
-
-#logoArea{width:1000px;}
-#logo{margin-left:0;}
-#socialLinks{display:block;}
-nav{padding-top:0; display:block !important;}
-nav ul{width:1000px;}
-#navLink{display:none;}
-
-#signin a,#delivery a, #orderOnline a{position:static;width:100%; text-align: center; 
+@media screen and (min-width:62.5em) { 
+ /*RESET STYLING*/
+#signin a,#delivery a, #orderOnline a{position:static;width:auto; text-align: center;
                 background:#11739d url(../images/usericon.png) no-repeat 42% 50%; 
                 border-top:1px solid #1794cc; border-right:0; font-weight:400; background:0;
-                border-bottom:0; padding-top:1.375em /*22px/16*/; padding-bottom:1.375em/*22px/16*/;}
+                border-bottom:0; padding-top:1.4375em /*22px/16*/; padding-bottom:1.4375em/*22px/16*/;}
+
+#logoArea{width:62.5em/*1000px/16*/;}
+#logo{margin-left:0;}
+#socialLinks{display:block;}
+nav{padding-top:0; display:block !important; border-top:1px solid #1bb2f2; border-bottom:1px solid #062533;}
+nav ul{width:62.5em/*1000px/16*/;}
+#navLink{display:none;}
+/*DONE RESET*/
+
+nav a,#signin a,#delivery a, #orderOnline a{padding-left:1.84615384615385em/*24px/13*/; padding-right:1.84615384615385em/*24px/13*/; 
+                padding-top:1.4375em; padding-bottom:1.4375em;
+                float:left; font-size:0.8125em/*13px*/;}
+#delivery a, #orderOnline a{font-weight:600; padding-top:1em; text-align:left;}
+#delivery a span,#orderOnline a span{font-size:0.84615384615385em/*11px/13*/;}
+#signin a{background:#11739d;}
 
     
 /*Content Area*/
