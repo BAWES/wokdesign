@@ -13,34 +13,34 @@ div.clear{clear:both;}
 
 /*Header Area*/
 header{width:100%; background:#191919;} 
-    #logo{margin-left:5%;}
-    #logoArea{width:100%;  margin-top:1.25em;/*20px/16*/ margin-bottom:1.5625em;/*25px/16*/ position:relative;}
-    #socialLinks{display:none;}
-    
-    #navLink{display:block; width:53px; height:53px; background:url(../images/navsprite.jpg) 0.9375em/*15px/16*/ 1.0625em/*17px/16*/ no-repeat;
-                position:absolute; top:0; right:5%;}
-    #navLink.active, #navLink:hover{background-position:15px -36px;}
-    /*navigation*/
-    nav{background:#18a0da; width:100%; padding-top:9.25em;/*148px/16*/ position:relative; display:none;}
-    nav ul{width:100%; margin:0 auto;}
-    nav a{display:block; padding-top:1.375em;/*22px/16*/ padding-bottom:1.375em;/*22px/16*/ text-align:center; 
-            border-top:1px solid #1794cc; font-size:0.875em;/*14px*/}
+#logo{margin-left:5%;}
+#logoArea{width:100%;  margin-top:1.25em;/*20px/16*/ margin-bottom:1.5625em;/*25px/16*/ position:relative;}
+#socialLinks{display:none;}
 
-    #signin a{position:absolute; top:0; left:0;width:100%; text-align: center; 
-              background:#11739d url(../images/usericon.png) no-repeat 38% 50%; border-top:0;
-                border-bottom:2px solid #17a8e6; padding-top:2.10375em; padding-bottom:2.10375em;}
-    #signin a:hover{background-color:#f79211;}
-    #orderOnline a{position:absolute; top:80px; left:0; width:49%; border-right:1px solid #1794cb; 
-                background:url(../images/carticon.png) no-repeat;}
-    #delivery a{position:absolute; top:80px; left:50%; width:50%; 
-                background:url(../images/phoneicon.png) no-repeat;}
-    #orderOnline a, #delivery a{background-position: 5% 50%; font-weight:600; border-top:0; padding-top:1.2em;}
-    #delivery a span,#orderOnline a span{display:block; font-size:0.6875em; color:#11739d; font-weight:400;}
+#navLink{display:block; width:53px; height:53px; background:url(../images/navsprite.jpg) 0.9375em/*15px/16*/ 1.0625em/*17px/16*/ no-repeat;
+         position:absolute; top:0; right:5%;}
+#navLink.active, #navLink:hover{background-position:15px -36px;}
+/*navigation*/
+nav{background:#18a0da; width:100%; padding-top:9.25em;/*148px/16*/ position:relative; display:none;}
+nav ul{width:100%; margin:0 auto;}
+nav a{display:block; padding-top:1.375em;/*22px/16*/ padding-bottom:1.375em;/*22px/16*/ text-align:center; 
+      border-top:1px solid #1794cc; font-size:0.875em;/*14px*/}
+
+#signin a{position:absolute; top:0; left:0;width:100%; text-align: center; 
+          background:#11739d url(../images/usericon.png) no-repeat 38% 50%; border-top:0;
+          border-bottom:2px solid #17a8e6; padding-top:2.10375em; padding-bottom:2.10375em;}
+#signin a:hover{background-color:#f79211;}
+#orderOnline a{position:absolute; top:80px; left:0; width:49%; border-right:1px solid #1794cb; 
+               background:url(../images/carticon.png) no-repeat;}
+#delivery a{position:absolute; top:80px; left:50%; width:50%; 
+            background:url(../images/phoneicon.png) no-repeat;}
+#orderOnline a, #delivery a{background-position: 5% 50%; font-weight:600; border-top:0; padding-top:1.2em;}
+#delivery a span,#orderOnline a span{display:block; font-size:0.6875em; color:#11739d; font-weight:400;}
 
 /*Content Area*/
 #content{background:#fff;}
-    
-    /*Slider*/
+
+/*Slider*/
 .slider { position: relative; overflow: auto; width:100%;}
 .slider li { list-style: none; }
 .slider ul li {float: left; background:#48b4e2 url(../images/sliderimage.png) 100% 9em no-repeat;  height:25em;}
@@ -48,9 +48,45 @@ header{width:100%; background:#191919;}
 .slider ul li p{color:white; font-size:0.8125em;/*13px/16*/ max-width:26.15384615384615em; margin-left:1.9em; margin-top:1em; margin-bottom:1em;}
 .slider ul li a{display:block;margin-top:10px; background:#2b3d4f; font-size:0.875em;/*14px/16*/
                 margin-left:1.7em; margin-top:2em;
-                    width:7em; padding:1em; text-align:center; -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;  -khtml-border-radius: 5px; border-radius: 5px;}
-    /*End Slider*/
+                width:7em; padding:1em; text-align:center; -moz-border-radius: 5px;
+                -webkit-border-radius: 5px;  -khtml-border-radius: 5px; border-radius: 5px;}
+.slider .dot {
+    -webkit-filter: drop-shadow(0 1px 2px rgba(0,0,0,.3));
+    -moz-filter: drop-shadow(0 1px 2px rgba(0,0,0,.3));
+    -ms-filter: drop-shadow(0 1px 2px rgba(0,0,0,.3));
+    -o-filter: drop-shadow(0 1px 2px rgba(0,0,0,.3));
+    filter: drop-shadow(0 1px 2px rgba(0,0,0,.3));
+}
+
+.slider .dots {
+    position: absolute;
+    left: 1.8em;
+    right: 0;
+    bottom: 1em;
+}
+.slider .dots li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 4px;
+
+    text-indent: -999em;
+
+    border: 2px solid #fff;
+    border-radius: 6px;
+
+    cursor: pointer;
+    opacity: .4;
+
+    -webkit-transition: background .5s, opacity .5s;
+    -moz-transition: background .5s, opacity .5s;
+    transition: background .5s, opacity .5s;
+}
+.slider .dots li.active {
+    background: #fff;
+    opacity: 1;
+}
+/*End Slider*/
 
 
 /*ICON FIXES IN MULTIPLE SCREEN SIZES [Mobile]*/
@@ -75,63 +111,66 @@ header{width:100%; background:#191919;}
 
 
 
+
+
+
 /********/
 /*DESKTOP ( MOVE THIS TO SEPERATE STYLESHEET)*/
 /*This should load all the desktop graphics / styles / the heavy stuff blabla*/
 /********/
 
 @media screen and (min-width:62.5em) { 
- /*RESET STYLING*/
-#signin a,#delivery a, #orderOnline a{position:static;width:auto; text-align: center;
-                background:#11739d url(../images/usericon.png) no-repeat 42% 50%; 
-                border-top:1px solid #1794cc; border-right:0; font-weight:400; background:0;
-                border-bottom:0; padding-top:1.4375em /*22px/16*/; padding-bottom:1.4375em/*22px/16*/;}
+    /*RESET STYLING*/
+    #signin a,#delivery a, #orderOnline a{position:static;width:auto; text-align: center;
+                                          background:#11739d url(../images/usericon.png) no-repeat 42% 50%; 
+                                          border-top:1px solid #1794cc; border-right:0; font-weight:400; background:0;
+                                          border-bottom:0; padding-top:1.4375em /*22px/16*/; padding-bottom:1.4375em/*22px/16*/;}
 
-#logoArea{margin:0 auto; width:62.5em;/*1000px/16*/}
-#logo{margin-left:0;}
-#socialLinks{display:block; position:absolute; top:10px;right:0; width:156px;}
-#socialLinks a{display:block; width:40px; height:40px; background:url(../images/socialicons.jpg) top left no-repeat;
-                    float:left; margin-right:12px; overflow: auto; zoom:1;}
-        #socialLinks a.facebook{background-position: 0;}
-        #socialLinks a.twitter{background-position: -40px 0;}
-        #socialLinks a.instagram{background-position: -80px 0;}
+    #logoArea{margin-left:auto; margin-right:auto; width:62.5em;/*1000px/16*/}
+    #logo{margin-left:0;}
+    #socialLinks{display:block; position:absolute; top:10px;right:0; width:156px;}
+    #socialLinks a{display:block; width:40px; height:40px; background:url(../images/socialicons.jpg) top left no-repeat;
+                   float:left; margin-right:12px; overflow: auto; zoom:1;}
+    #socialLinks a.facebook{background-position: 0;}
+    #socialLinks a.twitter{background-position: -40px 0;}
+    #socialLinks a.instagram{background-position: -80px 0;}
 
-nav{padding-top:0; display:block !important; border-top:1px solid #1bb2f2; border-bottom:1px solid #062533;}
-nav ul{width:62.5em;/*1000px/16*/ }
-#navLink{display:none;}
-/*DONE RESET*/
+    nav{padding-top:0; display:block !important; border-top:1px solid #1bb2f2; border-bottom:1px solid #062533;}
+    nav ul{width:62.5em;/*1000px/16*/ }
+    #navLink{display:none;}
+    /*DONE RESET*/
 
-nav a,#signin a,#delivery a, #orderOnline a{padding-left:1.84615384615385em;/*24px/13*/ padding-right:1.84615384615385em;/*24px/13*/ 
-                padding-top:1.4375em; padding-bottom:1.4375em;
-                float:left; font-size:0.8125em;/*13px*/ border-left:1px solid #1794cb; border-top:0;
-}
-#delivery a, #orderOnline a{font-weight:600; padding-top:0.82em; padding-bottom:0.88em; text-align:left;}
-#delivery a span,#orderOnline a span{font-size:0.84615384615385em;/*11px/13*/}
-#delivery a{border-left:0; background:url(../images/phoneicon.png) 0 50% no-repeat;}
-#orderOnline a{background:url(../images/carticon.png) 17% 50% no-repeat; padding-left:4.30769230769231em;/*56px/13*/}
-#signin a{
-    padding-top:1em; 
-    padding-bottom:1em;
-    padding-right:1.15384615384615em; /*15px/13*/
-    padding-left:2.92307692307692em; /*38px/13*/
-    margin-top:0.4em;
-    background:#11739d url(../images/usericon.png) no-repeat 18% 50%;
--moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    -khtml-border-radius: 4px;
-    border-radius: 4px;
-}
+    nav a,#signin a,#delivery a, #orderOnline a{padding-left:1.84615384615385em;/*24px/13*/ padding-right:1.84615384615385em;/*24px/13*/ 
+                                                padding-top:1.4375em; padding-bottom:1.4375em;
+                                                float:left; font-size:0.8125em;/*13px*/ border-left:1px solid #1794cb; border-top:0;
+    }
+    #delivery a, #orderOnline a{font-weight:600; padding-top:0.82em; padding-bottom:0.88em; text-align:left;}
+    #delivery a span,#orderOnline a span{font-size:0.84615384615385em;/*11px/13*/}
+    #delivery a{border-left:0; background:url(../images/phoneicon.png) 0 50% no-repeat;}
+    #orderOnline a{background:url(../images/carticon.png) 17% 50% no-repeat; padding-left:4.30769230769231em;/*56px/13*/}
+    #signin a{
+        padding-top:1em; 
+        padding-bottom:1em;
+        padding-right:1.15384615384615em; /*15px/13*/
+        padding-left:2.92307692307692em; /*38px/13*/
+        margin-top:0.4em;
+        background:#11739d url(../images/usericon.png) no-repeat 18% 50%;
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -khtml-border-radius: 4px;
+        border-radius: 4px;
+    }
 
-    
-/*Content Area*/
-#contentArea{background:#15191f url(../images/texturebg.jpg) repeat-x; padding-top:2.4375em; /*39px/16*/}
-    
 
-#content{width:62.5em; margin:0 auto; }
+    /*Content Area*/
+    #contentArea{background:#15191f url(../images/texturebg.jpg) repeat-x; padding-top:2.4375em; /*39px/16*/}
 
-.slider ul li { background-position: 100% -20%;}
-.slider ul li h1{font-size:3.125em;/*50px/16*/}
-.slider ul li p{font-size:0.8125em;/*13px/16*/}
+
+    #content{width:62.5em; margin:0 auto; }
+
+    .slider ul li { background-position: 100% -20%;}
+    .slider ul li h1{font-size:3.125em;/*50px/16*/}
+    .slider ul li p{font-size:0.8125em;/*13px/16*/}
 
 
 }
