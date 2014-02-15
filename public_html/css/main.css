@@ -14,7 +14,7 @@ div.clear{clear:both;}
 /*Header Area*/
 header{width:100%; background:#191919;} 
     #logo{margin-left:5%;}
-    #logoArea{width:100%; margin:0 auto; margin-top:1.25em;/*20px/16*/ margin-bottom:1.5625em;/*25px/16*/ position:relative;}
+    #logoArea{width:100%;  margin-top:1.25em;/*20px/16*/ margin-bottom:1.5625em;/*25px/16*/ position:relative;}
     #socialLinks{display:none;}
     
     #navLink{display:block; width:53px; height:53px; background:url(../images/navsprite.jpg) 0.9375em/*15px/16*/ 1.0625em/*17px/16*/ no-repeat;
@@ -37,6 +37,20 @@ header{width:100%; background:#191919;}
     #orderOnline a, #delivery a{background-position: 5% 50%; font-weight:600; border-top:0; padding-top:1.2em;}
     #delivery a span,#orderOnline a span{display:block; font-size:0.6875em; color:#11739d; font-weight:400;}
 
+/*Content Area*/
+#content{background:#fff;}
+    
+    /*Slider*/
+.slider { position: relative; overflow: auto; width:100%;}
+.slider li { list-style: none; }
+.slider ul li {float: left; background:#48b4e2 url(../images/sliderimage.png) 100% 9em no-repeat;  height:25em;}
+.slider ul li h1{font-size:1.875em;/*30px/16*/; color:white; font-weight:400; margin-top:1em; margin-left:0.8em;}
+.slider ul li p{color:white; font-size:0.8125em;/*13px/16*/ max-width:26.15384615384615em; margin-left:1.9em; margin-top:1em; margin-bottom:1em;}
+.slider ul li a{display:block;margin-top:10px; background:#2b3d4f; font-size:0.875em;/*14px/16*/
+                margin-left:1.7em; margin-top:2em;
+                    width:7em; padding:1em; text-align:center; -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;  -khtml-border-radius: 5px; border-radius: 5px;}
+    /*End Slider*/
 
 
 /*ICON FIXES IN MULTIPLE SCREEN SIZES [Mobile]*/
@@ -73,7 +87,7 @@ header{width:100%; background:#191919;}
                 border-top:1px solid #1794cc; border-right:0; font-weight:400; background:0;
                 border-bottom:0; padding-top:1.4375em /*22px/16*/; padding-bottom:1.4375em/*22px/16*/;}
 
-#logoArea{width:62.5em;/*1000px/16*/}
+#logoArea{margin:0 auto; width:62.5em;/*1000px/16*/}
 #logo{margin-left:0;}
 #socialLinks{display:block; position:absolute; top:10px;right:0; width:156px;}
 #socialLinks a{display:block; width:40px; height:40px; background:url(../images/socialicons.jpg) top left no-repeat;
@@ -110,6 +124,14 @@ nav a,#signin a,#delivery a, #orderOnline a{padding-left:1.84615384615385em;/*24
 
     
 /*Content Area*/
-#contentArea{background:#15191f url(../images/texturebg.jpg) no-repeat;}
+#contentArea{background:#15191f url(../images/texturebg.jpg) repeat-x; padding-top:2.4375em; /*39px/16*/}
     
+
+#content{width:62.5em; margin:0 auto; }
+
+.slider ul li { background-position: 100% -20%;}
+.slider ul li h1{font-size:3.125em;/*50px/16*/}
+.slider ul li p{font-size:0.8125em;/*13px/16*/}
+
+
 }
