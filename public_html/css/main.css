@@ -19,7 +19,7 @@ header{width:100%; background:#191919;}
 
 #navLink{display:block; width:53px; height:53px; background:url(../images/navsprite.jpg) 0.9375em/*15px/16*/ 1.0625em/*17px/16*/ no-repeat;
          position:absolute; top:0; right:5%;}
-#navLink.active, #navLink:hover{background-position:15px -36px;}
+#navLink.active{background-position:15px -36px;}
 /*navigation*/
 nav{background:#18a0da; width:100%; padding-top:9.25em;/*148px/16*/ position:relative; display:none;}
 nav ul{width:100%; margin:0 auto;}
