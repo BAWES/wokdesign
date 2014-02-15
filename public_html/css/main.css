@@ -169,7 +169,7 @@ nav a{display:block; padding-top:1.375em;/*22px/16*/ padding-bottom:1.375em;/*22
     #content{width:62.5em; margin:0 auto; }
 
     .slider ul li { background-position: 100% -20%;}
-    .slider ul li h1{font-size:3.125em;/*50px/16*/}
+    .slider ul li h1{font-size:3.125em; margin-left:0.5em;/*50px/16*/}
     .slider ul li p{font-size:0.8125em;/*13px/16*/}
 
 
