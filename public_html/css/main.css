@@ -41,7 +41,7 @@ nav a{display:block; padding-top:1.375em;/*22px/16*/ padding-bottom:1.375em;/*22
 #content{background:#fff;}
 
 /*Slider*/
-.slider { position: relative; overflow: auto; width:100%;}
+.slider { position: relative; overflow: auto; width:100% !important;}
 .slider li { list-style: none; }
 .slider ul li {float: left; background:#48b4e2 url(../images/sliderimage.png) 100% 9em no-repeat;  height:25em;}
 .slider ul li h1{font-size:1.875em;/*30px/16*/; color:white; font-weight:400; margin-top:1em; margin-left:0.8em;}
