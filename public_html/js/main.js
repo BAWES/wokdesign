@@ -11,6 +11,7 @@ $(document).ready(function() {
         fluid: true              //  Support responsive design. May break non-responsive designs
     });
 
+
     //mobile nav-menu
     var navActive = false;
     $("#navLink").click(function() {
