@@ -111,10 +111,10 @@ nav a{display:block; padding-top:1.375em;/*22px/16*/ padding-bottom:1.375em;/*22
 
 /*Wokers List on Homepage*/
 .wokersList{width:100%;}
-.wokersList header{border-bottom:1px solid #f2f2f2; background:#fdfdfd; position:relative;}
+.wokersList header{border-bottom:1px solid #f2f2f2; background:#fdfdfd; position:relative; margin-bottom:1.25em;/*20px/16*/}
 .wokersList header a{display:block;}
 .wokersList header a:hover h2{color:#18a0da;}
-.wokersList header h2{ font-weight:600; color:#2b3d4f;
+.wokersList header h2{ font-weight:600; color:#2b3d4f; 
     font-size:0.9375em;/*15px/16*/ padding-left:1.2em; padding-top:1.35em; padding-bottom:1.3em;}
 .wokersList header .scroll{position:absolute; top:0; right:0; background:#fdfdfd url(../images/scrollicons.png) no-repeat;
                     width:3.75em; height:3.75em;/*60px/16*/ border-left:1px solid #f2f2f2;}
@@ -123,10 +123,17 @@ nav a{display:block; padding-top:1.375em;/*22px/16*/ padding-bottom:1.375em;/*22
 .wokersList header .scroll.down{background-position:22px -16px;}
 .wokersList header .scroll.down:hover{background-position:22px -93px;}
 
-.wokersList .boxList a{display:block; width:87.5%; margin:0 auto;}
-.wokersList .boxList b{display:block; float:left; background:#fa9312; color:#fff;}
-.wokersList .boxList img{display:block; float:left; width:3.75em;/*60px/16*/}
-.wokersList .boxList p{display:block; float:left; color:#000;}
+.wokersList .boxList a{display:block; width:87.5%; margin:0 auto; margin-bottom:0.75em;/*12px*/}
+.wokersList a:hover p{border-color: #fa9312;}
+
+.wokersList .boxList b{display:block; float:left; background:#fa9312; color:#fff; 
+          height:2.55em; padding-top:1.2em;/*60px/16*/ width:7.14285714285714%; 
+          margin-right:3.57142857142857%; text-align:center;}
+.wokersList .boxList img{display:block; float:left; width:3.75em; max-height:3.75em;/*60px/16*/}
+.wokersList .boxList p{display:block; float:left; font-size:0.8125em;/*13px/16*/ width:56.42857142857143%; 
+                       padding-left:5.71428571428571%; padding-right:5.71428571428571%; font-weight:600;
+          color:#000; height:2.961538461538462em;/*58px/13*/ padding-top:1.5em;
+          border:1px solid #f2f2f2; border-left:0;}
 
 
 
