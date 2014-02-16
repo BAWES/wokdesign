@@ -32,8 +32,21 @@ $(document).ready(function() {
         if($(this).hasClass('up')) direction = 'up';
         else direction = 'down';
         
-        var boxes = $(this).parent().parent().find('.boxes');
-        if(direction === 'down') boxes.animate({top:-360},600);
-        else boxes.animate({top:0},600);
+        $(this).removeClass('active');
+        
+        var wokersList = $(this).parent().parent();
+        var boxes = wokersList.find('.boxes');
+        var speed = 600;
+        
+        if(direction === 'down'){
+            boxes.animate({top:-360},speed,function(){
+                wokersList.find('.up').addClass('active');
+            });
+        }
+        else{ 
+            boxes.animate({top:0},speed,function(){
+                wokersList.find('.down').addClass('active');
+            });
+        }
     });
 });

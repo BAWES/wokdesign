@@ -119,13 +119,13 @@ nav a{display:block; padding-top:1.375em;/*22px/16*/ padding-bottom:1.375em;/*22
 .wokersList header .scroll{position:absolute; top:0; right:0; background:#fdfdfd url(../images/scrollicons.png) no-repeat;
                     width:3.75em; height:3.75em;/*60px/16*/ border-left:1px solid #f2f2f2;}
 .wokersList header .scroll.up{right:61px; background-position:22px -54px;}
-.wokersList header .scroll.up:hover{background-position:22px 22px;}
+.wokersList header .scroll.up.active{background-position:22px 22px;}
 .wokersList header .scroll.down{background-position:22px -16px;}
-.wokersList header .scroll.down:hover{background-position:22px -93px;}
+.wokersList header .scroll.down.active{background-position:22px -93px;}
 
 
-.wokersList .boxList{overflow:hidden; height:22.5em; /*360px/16*/ border-bottom:1px solid #e6e6e6; padding-bottom:0.5em;}
-.wokersList .boxes{position:relative; top:0; /*top:-22.5em;/*-360px/16*/}
+.wokersList .boxList{overflow:hidden; height:21.875em; /*350px/16*/ padding-bottom:0.5em;}
+.wokersList .boxes{position:relative; top:0; /*top:-21.875em;/*-350px/16*/}
 
 .wokersList .boxList a{display:block; width:87.5%; margin:0 auto; margin-bottom:0.75em;/*12px*/}
 .wokersList a:hover p{border-color: #fa9312;}
@@ -139,6 +139,7 @@ nav a{display:block; padding-top:1.375em;/*22px/16*/ padding-bottom:1.375em;/*22
           color:#000; height:2.961538461538462em;/*58px/13*/ padding-top:1.5em;
           border:1px solid #f2f2f2; border-left:0;}
 
+#trendingWok,#top10Wok{margin-top:1em; border-top:1px solid #e6e6e6;}
 
 
 
@@ -204,7 +205,8 @@ nav a{display:block; padding-top:1.375em;/*22px/16*/ padding-bottom:1.375em;/*22
     .slider ul li p{font-size:0.8125em;/*13px/16*/}
     
     /*Wokers List Homepage*/
-    .wokersList .boxList{border-bottom:0;}
+    #trendingWok,#top10Wok{border-top:0; margin-top:0; border-left:1px solid #f2f2f2;}
+    .wokersList{width:33.2%; float:left;}
 
 
 }
