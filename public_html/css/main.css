@@ -127,7 +127,7 @@ nav a{display:block; padding-top:1.375em;/*22px/16*/ padding-bottom:1.375em;/*22
 .wokersList .boxList{overflow:hidden; height:21.875em; /*350px/16*/ padding-bottom:0.5em;}
 .wokersList .boxes{position:relative; top:0; /*top:-21.875em;/*-350px/16*/}
 
-.wokersList .boxList a{display:block; width:87.5%; margin:0 auto; margin-bottom:0.75em;/*12px*/}
+.wokersList .boxList a{display:block; width:90%; margin:0 auto; margin-bottom:0.75em;/*12px*/}
 .wokersList a:hover p{border-color: #fa9312;}
 
 .wokersList .boxList b{display:block; float:left; background:#fa9312; color:#fff;  
@@ -141,7 +141,10 @@ nav a{display:block; padding-top:1.375em;/*22px/16*/ padding-bottom:1.375em;/*22
 
 #trendingWok,#top10Wok{margin-top:1em; border-top:1px solid #e6e6e6;}
 
-
+/*FIX Ranking List in Screensize less than 327px wide*/
+@media screen and (max-width:20.4375em) { /*327px*/
+    .wokersList .boxList a{width:95%;}
+}
 
 
 
