@@ -123,9 +123,10 @@ nav a{display:block; padding-top:1.375em;/*22px/16*/ padding-bottom:1.375em;/*22
 .wokersList header .scroll.down{background-position:22px -16px;}
 .wokersList header .scroll.down:hover{background-position:22px -93px;}
 
-
-
-
+.wokersList .boxList a{display:block; width:87.5%; margin:0 auto;}
+.wokersList .boxList b{display:block; float:left; background:#fa9312; color:#fff;}
+.wokersList .boxList img{display:block; float:left; width:3.75em;/*60px/16*/}
+.wokersList .boxList p{display:block; float:left; color:#000;}
 
 
 
