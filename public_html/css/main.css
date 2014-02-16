@@ -12,7 +12,7 @@ body{background:#15191f; font-family: 'Open Sans', sans-serif;}
 div.clear{clear:both;}
 
 /*Header Area*/
-header{width:100%; background:#191919;} 
+header#mainheader{width:100%; background:#191919;} 
 #logo{margin-left:5%;}
 #logoArea{width:100%;  margin-top:1.25em;/*20px/16*/ margin-bottom:1.5625em;/*25px/16*/ position:relative;}
 #socialLinks{display:none;}
@@ -106,6 +106,25 @@ nav a{display:block; padding-top:1.375em;/*22px/16*/ padding-bottom:1.375em;/*22
     #signin a{background-position: 45% 50%;}
     #orderOnline a, #delivery a{background-position: 31% 50%;}  
 }
+
+
+
+/*Wokers List on Homepage*/
+.wokersList{width:100%;}
+.wokersList header{border-bottom:1px solid #f2f2f2; background:#fdfdfd; position:relative;}
+.wokersList header a{display:block;}
+.wokersList header a:hover h2{color:#18a0da;}
+.wokersList header h2{ font-weight:600; color:#2b3d4f;
+    font-size:0.9375em;/*15px/16*/ padding-left:1.2em; padding-top:1.35em; padding-bottom:1.3em;}
+.wokersList header .scroll{position:absolute; top:0; right:0; background:#fdfdfd url(../images/scrollicons.png) no-repeat;
+                    width:3.75em; height:3.75em;/*60px/16*/ border-left:1px solid #f2f2f2;}
+.wokersList header .scroll.up{right:61px; background-position:22px -54px;}
+.wokersList header .scroll.up:hover{background-position:22px 22px;}
+.wokersList header .scroll.down{background-position:22px -16px;}
+.wokersList header .scroll.down:hover{background-position:22px -93px;}
+
+
+
 
 
 
