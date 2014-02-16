@@ -3,13 +3,18 @@ html,*{margin:0;padding:0;font-size:100%;}
 ul,ol,li{list-style:none;}
 a{text-decoration:none; color:white;}
 a,img{border:none; /*IE Border Fix*/}
+input
+{
+border: 0;
+border: none;
+}
 
 
 /*start css*/
 body{background:#15191f; font-family: 'Open Sans', sans-serif;}
 
 /*generic css*/
-div.clear{clear:both;}
+.clear{clear:both;}
 
 /*Header Area*/
 header#mainheader{width:100%; background:#191919;} 
@@ -155,6 +160,50 @@ nav a{display:block; padding-top:1.375em;/*22px/16*/ padding-bottom:1.375em;/*22
 #aboutBanner p{padding-left:1em; padding-right:1em; padding-top:0.4em;}
 
 
+/*Email Subscription*/
+#subscribe{height:10.625em;/*170px/16*/ background:#e88220 url(../images/subscribebg.png) bottom right no-repeat;}
+#subscribe h1{font-size:1.875em;/*30px*/ color:white; font-weight:600; padding-top:0.7em; padding-left:0.7em;}
+#subscribe p{font-size:0.875; color:white; font-weight:400; padding-left:1.5em;}
+#subscribe form{padding-left:1.4em; padding-top:0.8em}
+#subscribe input.email{
+    display:block; width:15em;
+    padding:0.85em; height:1em; font-size:0.8125em;
+    -webkit-border-top-left-radius: 5px;
+-webkit-border-bottom-left-radius: 5px;
+-moz-border-radius-topleft: 5px;
+-moz-border-radius-bottomleft: 5px;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+margin:0;
+float:left;
+}
+#subscribe .submit{
+    float:left;
+    display:block;
+    margin:0;
+    font-size:0.8125em;
+    background:#2b3d4f url(../images/submiticon.jpg) 50% 50% no-repeat;
+    cursor:pointer;
+    color:white;
+    padding:0.85em;
+    height:1em;
+    width:1em;
+    
+    -webkit-border-top-right-radius: 5px;
+-webkit-border-bottom-right-radius: 5px;
+-moz-border-radius-topright: 5px;
+-moz-border-radius-bottomright: 5px;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+}
+
+
+
+
+
+
+
+
 /********/
 /*DESKTOP ( MOVE THIS TO SEPERATE STYLESHEET)*/
 /*This should load all the desktop graphics / styles / the heavy stuff blabla*/
@@ -223,5 +272,8 @@ nav a{display:block; padding-top:1.375em;/*22px/16*/ padding-bottom:1.375em;/*22
     #aboutBanner h1{padding-top:4.5em; padding-left:1em;}
     #aboutBanner h2{padding-left:1em;}
     #aboutBanner p{padding-left:1.5em; padding-top:1em;}
+    
+    /*Newsletter*/
+    #subscribe{width:50%;}
 
 }

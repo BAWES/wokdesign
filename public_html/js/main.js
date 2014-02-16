@@ -59,4 +59,9 @@ $(document).ready(function() {
             });
         }
     });
+    
+    //Email Form Functionality
+    $('#subscribe .submit').click(function(){
+        $(this).parent().submit();
+    });
 });
