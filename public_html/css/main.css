@@ -143,7 +143,7 @@ nav a{display:block; padding-top:1.375em;/*22px/16*/ padding-bottom:1.375em;/*22
 
 /*FIX Ranking List in Screensize less than 327px wide*/
 @media screen and (max-width:20.4375em) { /*327px*/
-    .wokersList .boxList a{width:95%;}
+    .wokersList .boxList a{width:97%;}
 }
 
 
