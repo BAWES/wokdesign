@@ -1,6 +1,6 @@
 $(document).ready(function() {
     //slider
-    $('.slider').unslider({
+    var slidey = $('.slider').unslider({
         speed: 500, //  The speed to animate each slide (in milliseconds)
         delay: 4000, //  The delay between slide animations (in milliseconds)
         complete: function() {
@@ -9,6 +9,17 @@ $(document).ready(function() {
         dots: true, //  Display dot navigation
         fluid: true              //  Support responsive design. May break non-responsive designs
     });
+    
+    var slider = slidey.data('unslider');
+    function nextSlide(){
+        slider.next();
+    }
+    function prevSlide(){
+        slider.prev();
+    }
+    
+    //add swipe functionality to slider
+    $('.slider').swipe( { swipeLeft:nextSlide, swipeRight:prevSlide, allowPageScroll:"auto"} );
 
 
     //mobile nav-menu
