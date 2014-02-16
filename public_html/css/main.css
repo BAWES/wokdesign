@@ -148,9 +148,11 @@ nav a{display:block; padding-top:1.375em;/*22px/16*/ padding-bottom:1.375em;/*22
 
 /*Banner Section*/
 #aboutBanner{height:15.625em;/*250px/16*/ background-size:cover;}
-#aboutBanner div{background: url(../images/transbg.png); color:#fff; height:100%; width:100%;}
-
-
+#aboutBanner div{background: url(../images/transbg.png); color:#fff; height:100%; width:100%; text-align:center;}
+#aboutBanner h1{font-size:1.5em;/*24px*/ font-weight:300; padding-top:1em;}
+#aboutBanner h1 span{color:#48b4e2;}
+#aboutBanner h2{font-weight:600; font-size:1.5em;/*24px*/}
+#aboutBanner p{padding-left:1em; padding-right:1em; padding-top:0.4em;}
 
 
 /********/
@@ -217,6 +219,9 @@ nav a{display:block; padding-top:1.375em;/*22px/16*/ padding-bottom:1.375em;/*22
     
     /*About Banner*/
     #aboutBanner{height:28.125em;/*450px/16*/}
-
+    #aboutBanner div{width:50%; text-align:left;}
+    #aboutBanner h1{padding-top:4.5em; padding-left:1em;}
+    #aboutBanner h2{padding-left:1em;}
+    #aboutBanner p{padding-left:1.5em; padding-top:1em;}
 
 }
