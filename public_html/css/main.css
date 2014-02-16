@@ -123,11 +123,15 @@ nav a{display:block; padding-top:1.375em;/*22px/16*/ padding-bottom:1.375em;/*22
 .wokersList header .scroll.down{background-position:22px -16px;}
 .wokersList header .scroll.down:hover{background-position:22px -93px;}
 
+
+.wokersList .boxList{overflow:hidden; height:22.5em; /*360px/16*/ border-bottom:1px solid #e6e6e6; padding-bottom:0.5em;}
+.wokersList .boxes{position:relative; top:0; /*top:-22.5em;/*-360px/16*/}
+
 .wokersList .boxList a{display:block; width:87.5%; margin:0 auto; margin-bottom:0.75em;/*12px*/}
 .wokersList a:hover p{border-color: #fa9312;}
 
-.wokersList .boxList b{display:block; float:left; background:#fa9312; color:#fff; 
-          height:2.55em; padding-top:1.2em;/*60px/16*/ width:7.14285714285714%; 
+.wokersList .boxList b{display:block; float:left; background:#fa9312; color:#fff;  
+          height:2.55em; padding-top:1.2em;/*60px/16*/ width:7.14285714285714%;  font-weight:400;
           margin-right:3.57142857142857%; text-align:center;}
 .wokersList .boxList img{display:block; float:left; width:3.75em; max-height:3.75em;/*60px/16*/}
 .wokersList .boxList p{display:block; float:left; font-size:0.8125em;/*13px/16*/ width:56.42857142857143%; 
@@ -198,6 +202,9 @@ nav a{display:block; padding-top:1.375em;/*22px/16*/ padding-bottom:1.375em;/*22
     .slider ul li { background-position: 100% -20%;}
     .slider ul li h1{font-size:3.125em; margin-left:0.5em;/*50px/16*/}
     .slider ul li p{font-size:0.8125em;/*13px/16*/}
+    
+    /*Wokers List Homepage*/
+    .wokersList .boxList{border-bottom:0;}
 
 
 }

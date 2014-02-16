@@ -25,4 +25,15 @@ $(document).ready(function() {
             navActive = false;
         }
     });
+    
+    //Wokers TopDown Navigation (Home Page)
+    $('.scroll').click(function(){
+        var direction;
+        if($(this).hasClass('up')) direction = 'up';
+        else direction = 'down';
+        
+        var boxes = $(this).parent().parent().find('.boxes');
+        if(direction === 'down') boxes.animate({top:-360},600);
+        else boxes.animate({top:0},600);
+    });
 });
