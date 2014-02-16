@@ -147,8 +147,8 @@ nav a{display:block; padding-top:1.375em;/*22px/16*/ padding-bottom:1.375em;/*22
 }
 
 /*Banner Section*/
-
-
+#aboutBanner{height:15.625em;/*250px/16*/ background-size:cover;}
+#aboutBanner div{background: url(../images/transbg.png); color:#fff; height:100%; width:100%;}
 
 
 
@@ -214,6 +214,9 @@ nav a{display:block; padding-top:1.375em;/*22px/16*/ padding-bottom:1.375em;/*22
     /*Wokers List Homepage*/
     #trendingWok,#top10Wok{border-top:0; margin-top:0; border-left:1px solid #f2f2f2;}
     .wokersList{width:33.2%; float:left;}
+    
+    /*About Banner*/
+    #aboutBanner{height:28.125em;/*450px/16*/}
 
 
 }
