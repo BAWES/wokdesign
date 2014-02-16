@@ -2,7 +2,9 @@
 @media screen and (min-width:62.5em) { 
     /*fix drop-float issue*/
     nav li{overflow: auto; zoom:1; float:left;}
-
+    #wokersArea{overflow: auto; zoom:1; float:left;}
+    .wokersList .boxList{position:relative;}
+    
     #socialLinks{display:block; position:absolute; top:10px;right:0; width:156px;}
     #socialLinks a{display:block; width:40px; height:40px; background:url(../images/socialicons.jpg) top left no-repeat;
                    margin-right:12px;}
