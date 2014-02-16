@@ -35,7 +35,7 @@ nav a{display:block; padding-top:1.375em;/*22px/16*/ padding-bottom:1.375em;/*22
 #delivery a{position:absolute; top:80px; left:50%; width:50%; 
             background:url(../images/phoneicon.png) no-repeat;}
 #orderOnline a, #delivery a{background-position: 5% 50%; font-weight:600; border-top:0; padding-top:1.2em;}
-#delivery a span,#orderOnline a span{display:block; font-size:0.6875em; color:#11739d; font-weight:400;}
+#delivery a span,#orderOnline a span{display:block; font-size:0.6875em; color:#2b3d4f; font-weight:400;}
 
 /*Content Area*/
 #content{background:#fff;}
@@ -145,6 +145,10 @@ nav a{display:block; padding-top:1.375em;/*22px/16*/ padding-bottom:1.375em;/*22
 @media screen and (max-width:20.4375em) { /*327px*/
     .wokersList .boxList a{width:97%;}
 }
+
+/*Banner Section*/
+
+
 
 
 
