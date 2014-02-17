@@ -296,7 +296,7 @@ header#ranking a{
 }
 @media screen and (min-width:50em) { /*800px*/
     header#ranking select,header#ranking input{float:left;}
-    header#ranking input{margin-left:0.3em;}
+    header#ranking input{margin-left:0.7em;}
 }
 
 
@@ -401,5 +401,8 @@ header#ranking a{
 
     /*RANKING PAGE*/
     header#ranking{height:16.875em;/*270px/16*/}
-
+    header#ranking h1{padding-top:1.1em; padding-left:1em; padding-bottom:1.05em;}
+    header#ranking h2{padding-left:1.7em;}
+    header#ranking select{margin-left:1.9em;margin-bottom:1.5em;}
+    header#ranking a{margin-left:1.9em; }
 }
