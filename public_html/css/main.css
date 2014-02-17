@@ -5,8 +5,8 @@ a{text-decoration:none; color:white;}
 a,img{border:none; /*IE Border Fix*/}
 input
 {
-border: 0;
-border: none;
+    border: 0;
+    border: none;
 }
 
 
@@ -120,9 +120,9 @@ nav a{display:block; padding-top:1.375em;/*22px/16*/ padding-bottom:1.375em;/*22
 .wokersList header a{display:block;}
 .wokersList header a:hover h2{color:#18a0da;}
 .wokersList header h2{ font-weight:600; color:#2b3d4f; 
-    font-size:0.9375em;/*15px/16*/ padding-left:1.2em; padding-top:1.35em; padding-bottom:1.3em;}
+                       font-size:0.9375em;/*15px/16*/ padding-left:1.2em; padding-top:1.35em; padding-bottom:1.3em;}
 .wokersList header .scroll{position:absolute; top:0; right:0; background:#fdfdfd url(../images/scrollicons.png) no-repeat;
-                    width:3.75em; height:3.75em;/*60px/16*/ border-left:1px solid #f2f2f2;}
+                           width:3.75em; height:3.75em;/*60px/16*/ border-left:1px solid #f2f2f2;}
 .wokersList header .scroll.up{right:61px; background-position:22px -54px;}
 .wokersList header .scroll.up.active{background-position:22px 22px;}
 .wokersList header .scroll.down{background-position:22px -16px;}
@@ -136,13 +136,13 @@ nav a{display:block; padding-top:1.375em;/*22px/16*/ padding-bottom:1.375em;/*22
 .wokersList a:hover p{border-color: #fa9312;}
 
 .wokersList .boxList b{display:block; float:left; background:#fa9312; color:#fff;  
-          height:2.55em; padding-top:1.2em;/*60px/16*/ width:7.14285714285714%;  font-weight:400;
-          margin-right:3.57142857142857%; text-align:center;}
+                       height:2.55em; padding-top:1.2em;/*60px/16*/ width:7.14285714285714%;  font-weight:400;
+                       margin-right:3.57142857142857%; text-align:center;}
 .wokersList .boxList img{display:block; float:left; width:3.75em; max-height:3.75em;/*60px/16*/}
 .wokersList .boxList p{display:block; float:left; font-size:0.8125em;/*13px/16*/ width:56.42857142857143%; 
                        padding-left:5.71428571428571%; padding-right:5.71428571428571%; font-weight:600;
-          color:#000; height:2.961538461538462em;/*58px/13*/ padding-top:1.5em;
-          border:1px solid #f2f2f2; border-left:0;}
+                       color:#000; height:2.961538461538462em;/*58px/13*/ padding-top:1.5em;
+                       border:1px solid #f2f2f2; border-left:0;}
 
 #trendingWok,#top10Wok{margin-top:1em; border-top:1px solid #e6e6e6;}
 
@@ -169,9 +169,9 @@ nav a{display:block; padding-top:1.375em;/*22px/16*/ padding-bottom:1.375em;/*22
     display:block; width:15em;
     padding:0.85em; height:1em; font-size:0.8125em;
     -webkit-border-top-left-radius: 5px; -webkit-border-bottom-left-radius: 5px; -moz-border-radius-topleft: 5px;
--moz-border-radius-bottomleft: 5px; border-top-left-radius: 5px; border-bottom-left-radius: 5px;
-margin:0;
-float:left;
+    -moz-border-radius-bottomleft: 5px; border-top-left-radius: 5px; border-bottom-left-radius: 5px;
+    margin:0;
+    float:left;
 }
 #subscribe .submit{
     float:left; display:block;
@@ -179,7 +179,7 @@ float:left;
     background:#2b3d4f url(../images/submiticon.jpg) 50% 50% no-repeat;
     cursor:pointer; color:white;
     padding:0.85em; height:1em; width:1em;
-    
+
     -webkit-border-top-right-radius: 5px; -webkit-border-bottom-right-radius: 5px; -moz-border-radius-topright: 5px;
     -moz-border-radius-bottomright: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px;
 }
@@ -194,10 +194,10 @@ float:left;
 #orders h1{font-size:1.875em;/*30px*/ color:white; font-weight:600; padding-top:0.7em; padding-left:0.7em; text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);}
 #orders p{font-size:0.875; color:white; font-weight:400; padding-left:1.5em; text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);}
 #orders a{display:block; padding:0.6em;
-        margin-top:1em;  margin-left:2em;
-        text-align:center;  font-weight:600;
-        width:8em;   font-size:0.8125em; background:#2b3d4f;  
-        -moz-border-radius: 4px; -webkit-border-radius: 4px; -khtml-border-radius: 4px; border-radius: 4px;
+          margin-top:1em;  margin-left:2em;
+          text-align:center;  font-weight:600;
+          width:8em;   font-size:0.8125em; background:#2b3d4f;  
+          -moz-border-radius: 4px; -webkit-border-radius: 4px; -khtml-border-radius: 4px; border-radius: 4px;
 }
 /*ADJUST Background Image in different screen sizes*/
 @media screen and (min-width:28em) {
@@ -273,19 +273,45 @@ float:left;
     .slider ul li { background-position: 100% -20%;}
     .slider ul li h1{font-size:3.125em; margin-left:0.5em;/*50px/16*/}
     .slider ul li p{font-size:0.8125em;/*13px/16*/}
-    
+
     /*Wokers List Homepage*/
     #trendingWok,#top10Wok{border-top:0; margin-top:0; border-left:1px solid #f2f2f2;}
     .wokersList{width:33.2%; float:left;}
-    
+
     /*About Banner*/
     #aboutBanner{height:28.125em;/*450px/16*/}
     #aboutBanner div{width:50%; text-align:left;}
     #aboutBanner h1{padding-top:4.5em; padding-left:1em;}
     #aboutBanner h2{padding-left:1em;}
     #aboutBanner p{padding-left:1.5em; padding-top:1em;}
-    
+
     /*Newsletter*/
     #subscribe{width:50%; float:left;}
     #orders{width:50%; float:left;}
+
+
+    /*Footer Area*/
+    /*do desktop first, then move most css to mobile area to switch to mobile first*/
+
+    footer{width:62.5em; margin:0 auto;
+           -webkit-box-shadow: inset 8px 9px 119px 0px rgba(0,0,0,0.65);
+           -moz-box-shadow: inset 8px 9px 119px 0px rgba(0,0,0,0.65);
+           box-shadow: inset 8px 9px 119px 0px rgba(0,0,0,0.65);
+           background:url(../images/seamless2.jpg)}
+    
+    .socialFeed{width:33%;  float:left; padding-top:2em;}
+    .socialFeed a{padding-left:2em;
+                  color:#16a0da; font-weight:400; font-size:0.8125em;/*13px/16*/}
+    .socialFeed a span{color:#fff; font-size:1.230769230769231em;/*16px/13*/}
+    .socialFeed div{color:#fff; padding-left:2em; font-size:0.8em; margin-top:2em;}
+    
+    
+    
+    #about{width:94%; margin:0 auto;
+        border-top:1px solid #8c8c8c; margin-top:1.5em; padding-top:1.5em; color:#fff;
+    }
+    #about h1{font-size:1.125em;/*18px/16*/}
+    
+    
+    
 }
