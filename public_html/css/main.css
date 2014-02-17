@@ -205,9 +205,6 @@ nav a{display:block; padding-top:1.375em;/*22px/16*/ padding-bottom:1.375em;/*22
 }
 
 
-#footer{}
-#copyright{background:#16a0da;}
-#copyright p,#copyright a{color:#fff; font-weight:600;}
 
 /*Footer Area*/
 
@@ -239,9 +236,10 @@ footer{width:100%;/*
 #about p{color:#ccc; font-size:0.8125em;/*13px/16*/; margin-top:1em;}
 #about img{display:block;width:6.3125em; margin:0 auto; margin-top:1em;}
 
-#copyright{font-size:0.8625em; text-align:center}
-#copyright p{padding:1em; padding-top:1em;}
+#copyright{background:#16a0da; font-size:0.8625em; text-align:center}
+#copyright p{padding:1em; padding-top:1em; color:#fff; font-weight:600;}
 #copyright a{padding-top:0.7em; padding-right:1em;}
+
 
 /*Footer Layout Fixes for different screen sizes*/
 @media screen and (min-width:31.0625em) { /*497px*/
