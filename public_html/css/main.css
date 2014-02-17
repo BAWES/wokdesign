@@ -3,7 +3,7 @@ html,*{margin:0;padding:0;font-size:100%;}
 ul,ol,li{list-style:none;}
 a{text-decoration:none; color:white;}
 a,img{border:none; /*IE Border Fix*/}
-input
+input,select
 {
     border: 0;
     border: none;
@@ -259,6 +259,41 @@ footer{width:100%;/*
 /*********************/
 /*** RANKING PAGE ****/
 /********************/
+header#ranking{background:#f99511 url(../images/layout/rankingbg.jpg) top right no-repeat; 
+               /*background-size:cover;*/ background-size:80%;}
+header#ranking h1{text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);
+    padding-top:0.5em; padding-left:0.7em; font-size:1.5625em;/*25px/16*/ color:#fff; font-weight:600}
+header#ranking h2{text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);
+    padding-left:1.2em; color:#fff; font-weight:400; font-size:1em; margin-bottom:1em;}
+
+
+header#ranking select,header#ranking input{
+    display:block; width:15em; font-size:0.8125em;
+    padding:0.85em; 
+    -webkit-border-radius: 5px; -moz-border-radius: 5px; 
+    -khtml-border-radius: 5px; border-radius: 5px;
+    margin:0; margin-bottom:5px;
+    margin-left:1.5em;
+    color:#999;
+}
+header#ranking input{background:#fff url(../images/layout/searchinput.png) 95% 50% no-repeat;}
+
+/*submit button*/
+header#ranking a{
+          background:#2b3d4f url(../images/layout/searchicon.png) 18% 50% no-repeat;
+          display:block; padding:1em; padding-left:1.5em; padding-right:0em;
+          margin-top:2em;  margin-left:2em;
+          text-align:center;  font-weight:600;
+          width:6em;   font-size:0.8125em;
+          -moz-border-radius: 4px; -webkit-border-radius: 4px; -khtml-border-radius: 4px; border-radius: 4px;
+}
+
+
+
+
+
+
+
 
 
 
@@ -354,5 +389,9 @@ footer{width:100%;/*
     #about h1{float:left; font-size:1.125em;/*18px/16*/ font-weight:600; width:13.82978723404255%;}
     #about p{float:left; color:#ccc; font-size:0.8125em;/*13px/16*/ width:53.19148936170213%;}
     #about img{float:left; padding-left:6em;}
+    
+    
+    /*RANKING PAGE*/
+    header#ranking{height:16.875em;/*270px/16*/}
 
 }
