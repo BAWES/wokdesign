@@ -433,4 +433,10 @@ header#ranking a{
     #rankingList .numSold span{display:block; margin-top:-0.3em;
         font-size:0.3611111111111111em;/*13px/36*/}
     
+    #pagination{padding-bottom:1em;}
+    #pagination li a{float:left;background:#ecf0f1; width:10%; text-align:center;
+    font-weight:600; color:#bdc3c7; font-size:1.125em;/*18px/16*/
+    height:4.444444444444444em;
+    }
+    
 }
