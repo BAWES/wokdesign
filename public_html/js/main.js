@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    //alert($(window).width());
+    
     //slider
     var slidey = $('.slider').unslider({
         speed: 500, //  The speed to animate each slide (in milliseconds)
