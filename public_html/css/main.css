@@ -404,7 +404,7 @@ header#ranking a{
     /*Ranking Boxes*/
     /*Turn to mobile first onComplete*/
     #rankingList{padding-top:2em; width:94%;/*940px*/ margin:0 auto;}
-    #rankingList a{display:block; padding-bottom:1.25em;/*20px*/ color:#000;}
+    #rankingList a{display:block; margin-bottom:1.25em;/*20px*/ color:#000;}
     #rankingList a:hover .boxDetails{background-color:#f7f7f7;}
     #rankingList b{text-align:center; font-size:1.125em;/*18px/16*/
                    color:#fff; float:left;
@@ -433,10 +433,17 @@ header#ranking a{
     #rankingList .numSold span{display:block; margin-top:-0.3em;
         font-size:0.3611111111111111em;/*13px/36*/}
     
-    #pagination{padding-bottom:1em;}
-    #pagination li a{float:left;background:#ecf0f1; width:10%; text-align:center;
-    font-weight:600; color:#bdc3c7; font-size:1.125em;/*18px/16*/
-    height:4.444444444444444em;
+    #rankingList #pagination{width:100%; background:#ecf0f1; text-align:center;
+                display:block; 
+                font-size:1.125em;/*18px/16*/
+                height:1.7em;
+                padding-top:1.544444444444444em;
+                padding-bottom:1.2em;
+                margin-bottom: 0;
+                font-weight:600;
+                color:#bdc3c7;
     }
+    #rankingList #pagination:hover{color:#666; background:#e6e6e6;}
+  
     
 }
