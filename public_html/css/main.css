@@ -405,6 +405,7 @@ header#ranking a{
     /*Turn to mobile first onComplete*/
     #rankingList{padding-top:2em; width:94%;/*940px*/ margin:0 auto;}
     #rankingList a{display:block; padding-bottom:1.25em;/*20px*/ color:#000;}
+    #rankingList a:hover .boxDetails{background-color:#f7f7f7;}
     #rankingList b{text-align:center; font-size:1.125em;/*18px/16*/
                    color:#fff; float:left;
         display:block; background:#f99311; width:6.38297872340426%;
