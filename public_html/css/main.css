@@ -400,4 +400,36 @@ header#ranking a{
     header#ranking h2{padding-left:1.7em;}
     header#ranking select{margin-left:1.9em;margin-bottom:1.5em;}
     header#ranking a{margin-left:1.9em; }
+    
+    /*Ranking Boxes*/
+    /*Turn to mobile first onComplete*/
+    #rankingList{padding-top:2em; width:94%;/*940px*/ margin:0 auto;}
+    #rankingList a{display:block; padding-bottom:1.25em;/*20px*/ color:#000;}
+    #rankingList b{text-align:center; font-size:1.125em;/*18px/16*/
+                   color:#fff; float:left;
+        display:block; background:#f99311; width:6.38297872340426%;
+        height:4.077777777777778em; padding-top:2.7em;
+        margin-right:1.06382978723404%;
+    }
+    #rankingList img{float:left; height:7.625em; width:7.625em;/*122px/16*/}
+    #rankingList .boxDetails{ width:62.34042553191488%;
+         padding-left:2.12765957446809%;
+         padding-right:2.12765957446809%; border-bottom:1px solid #ecf0f1;
+        float:left; height:5.3em; padding-top:1.1em; padding-bottom:1.1em;
+        border-top:1px solid #ecf0f1;
+    }
+    #rankingList .boxDetails h3{font-size:1em; color:#18a0da; margin-bottom:0.2em;}
+    #rankingList .boxDetails h4{font-size:0.8125em;/*13px/16*/ color:#333; margin-bottom:0.5em;}
+    #rankingList .boxDetails p{font-size:0.75em; color:#999;}
+    
+    
+    #rankingList .numSold{color:#fff; text-align:center;
+        background:#19a6e2 url(../images/layout/soldbg.jpg) top left; 
+        height:2.388888888888889em;/*122px/36*/
+        padding-top:0.7em; padding-bottom:0.3em;
+        width:3.388888888888889em;/*122px/36*/ 
+        float:left; font-weight:600; font-size:2.25em;/*36px/16*/}
+    #rankingList .numSold span{display:block; margin-top:-0.3em;
+        font-size:0.3611111111111111em;/*13px/36*/}
+    
 }
