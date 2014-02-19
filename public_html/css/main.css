@@ -387,11 +387,10 @@ header#ranking a{
 header#box{background:url(../images/layout/headerbg.jpg) top left; 
            background-size:cover; position:relative;}
 header#box .rank{color:#fff; background:#f79211; padding:0.5em; font-weight:600;}
-header#box img{float:left;}
+header#box img{float:left; height:7.625em; width:7.625em;}
 header#box h1{float:left; color:#fff; font-size:1em;/*26px/16*/ font-weight:600; padding-left:0.5em; padding-top:0.5em}
 header#box h1 span{display:block; font-weight:400; font-size:0.8em;/*13px/26*/}
-header#box .boxesSold{clear:both; padding:0.5em;
-           background:#158cbf; color:#fff;}
+header#box .boxesSold{clear:both; padding:0.5em; background:#158cbf; color:#fff;}
 
 header#box #shareBtn{background:#11739d url(../images/layout/shareicon.png) 20% 50% no-repeat; 
                      padding-top:1.166666666666667em;
@@ -434,6 +433,28 @@ header#box a.twitterShare{background-position: -40px 0; }
 #sales h1{background:url(../images/layout/titleicons.png) 0 -72px no-repeat;
     margin-top:1em; margin-bottom:1em;
     color:#333333; font-size:1.125em;/*18px/16*/ font-weight:600; padding-left:2em;}
+
+/*Box Page Responsive Header Fix*/
+
+@media screen and (min-width:26.5625em) { /*425px*/
+    header#box .rank{width:6.866666666666667em;/*103px*/ height:6.133333333333333em;/*122px*/ 
+         padding:0; padding-top:2em; float:left; font-size:0.9375em;/*15px/16*/ text-align:center;}
+    header#box .rank span{display:block; font-weight:600; font-size:2.4em;/*36px/15*/ margin-top:-0.2em;}
+    
+    header#box #shareBtn{top:5.2em;right:5em;}
+    header#box a.twitterShare{top:4em; right:6em;}
+    header#box a.fbShare{top:4em; right:9em;}
+}
+
+@media screen and (min-width:39.375em) { /*630px*/
+    header#box h1{float:left; color:#fff; font-size:1.625em;/*26px/16*/ font-weight:600; padding-left:0.5em; padding-top:0.5em}
+    header#box h1 span{display:block; font-weight:400; font-size:0.5em;/*13px/26*/}
+}
+
+@media screen and (min-width:43.75em) { /*700px*/
+        
+}
+
 
 /********/
 /*DESKTOP ( MOVE THIS TO SEPERATE STYLESHEET)*/
