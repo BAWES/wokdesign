@@ -65,4 +65,11 @@ $(document).ready(function() {
     $('#subscribe .submit').click(function(){
         $(this).parent().submit();
     });
+    
+    //show share buttons
+    $('#shareBtn').click(function(){
+       $(this).remove();
+       $('header#box a.fbShare').show();
+       $('header#box a.twitterShare').show();
+    });
 });

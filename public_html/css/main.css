@@ -403,12 +403,12 @@ header#box #shareBtn{background:#11739d url(../images/layout/shareicon.png) 20% 
                      display:none;
 }
 
-header#box a.facebook,header#box a.twitter{
+header#box a.fbShare,header#box a.twitterShare{
     position:absolute; top:6.2em; right:6em;
     display:block; width:40px; height:40px; background:url(../images/layout/socialicons.png) top left no-repeat;
 }
-header#box a.facebook{background-position: 0; right:9em;}
-header#box a.twitter{background-position: -40px 0; }
+header#box a.fbShare{background-position: 0; right:9em;}
+header#box a.twitterShare{background-position: -40px 0; }
 
 
 
