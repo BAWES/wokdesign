@@ -67,7 +67,9 @@ $(document).ready(function() {
     });
     
     //show share buttons
-    $('#shareBtn').click(function(){
+    $('header#box a.fbShare').hide();
+    $('header#box a.twitterShare').hide();
+    $('#shareBtn').show().click(function(){
        $(this).remove();
        $('header#box a.fbShare').show();
        $('header#box a.twitterShare').show();
