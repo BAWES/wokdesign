@@ -422,7 +422,7 @@ header#box a.twitterShare{background-position: -40px 0; }
 
 
 #ingredients{border-bottom:1px solid #e6e6e6; width:94%;
-             padding-right:3%; padding-left:3%;}
+             padding-right:3%; padding-left:3%; padding-bottom:2em;}
 #ingredients h1{background:url(../images/layout/titleicons.png) 0 -36px no-repeat;
     margin-top:1em; margin-bottom:1em;
     color:#333333; font-size:1.125em;/*18px/16*/ font-weight:600; padding-left:2em;}

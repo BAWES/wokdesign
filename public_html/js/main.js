@@ -95,14 +95,8 @@ $(document).ready(function() {
     rewindSpeed : 1000,
  
     //Autoplay
-    autoPlay : false,
+    autoPlay : true,
     stopOnHover : false,
- 
-    // Navigation
-    navigation : false,
-    navigationText : ["prev","next"],
-    rewindNav : true,
-    scrollPerPage : false,
  
     //Pagination
     pagination : true,
@@ -121,10 +115,6 @@ $(document).ready(function() {
     dragBeforeAnimFinish : true,
     mouseDrag : true,
     touchDrag : true,
- 
-    // Other
-    addClassActive : false,
- 
  
     });
 });
