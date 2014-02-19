@@ -400,9 +400,15 @@ header#box #shareBtn{background:#11739d url(../images/layout/shareicon.png) 20% 
                      position:absolute; top:8em;right:5em;
                      -webkit-border-radius: 5px; -moz-border-radius: 5px; 
                      -khtml-border-radius: 5px; border-radius: 5px;
+                     display:none;
 }
 
-
+header#box a.facebook,header#box a.twitter{
+    position:absolute; top:6.2em; right:6em;
+    display:block; width:40px; height:40px; background:url(../images/layout/socialicons.png) top left no-repeat;
+}
+header#box a.facebook{background-position: 0; right:9em;}
+header#box a.twitter{background-position: -40px 0; }
 
 
 
@@ -429,7 +435,7 @@ header#box #shareBtn{background:#11739d url(../images/layout/shareicon.png) 20% 
     #logoArea{margin-left:auto; margin-right:auto; width:62.5em;/*1000px/16*/}
     #logo{margin-left:0;}
     #socialLinks{display:block; position:absolute; top:10px;right:0; width:156px;}
-    #socialLinks a{display:block; width:40px; height:40px; background:url(../images/layout/socialicons.jpg) top left no-repeat;
+    #socialLinks a{display:block; width:40px; height:40px; background:url(../images/layout/socialicons.png) top left no-repeat;
                    float:left; margin-right:12px; overflow: auto; zoom:1;}
     #socialLinks a.facebook{background-position: 0;}
     #socialLinks a.twitter{background-position: -40px 0;}
