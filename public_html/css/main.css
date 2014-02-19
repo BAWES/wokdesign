@@ -390,7 +390,8 @@ header#box .rank{color:#fff; background:#f79211; padding:0.5em; font-weight:600;
 header#box img{float:left;}
 header#box h1{float:left; color:#fff; font-size:1em;/*26px/16*/ font-weight:600; padding-left:0.5em; padding-top:0.5em}
 header#box h1 span{display:block; font-weight:400; font-size:0.8em;/*13px/26*/}
-header#box .boxesSold{clear:both; width:100%; background:#158cbf; color:#fff;}
+header#box .boxesSold{clear:both; padding:0.5em;
+           background:#158cbf; color:#fff;}
 
 header#box #shareBtn{background:#11739d url(../images/layout/shareicon.png) 20% 50% no-repeat; 
                      padding-top:1.166666666666667em;
@@ -410,12 +411,23 @@ header#box a.fbShare,header#box a.twitterShare{
 header#box a.fbShare{background-position: 0; right:9em;}
 header#box a.twitterShare{background-position: -40px 0; }
 
+#description{border-bottom:1px solid #e6e6e6; width:94%;
+             padding-right:3%; padding-left:3%;
+}
+#description h1{background:url(../images/layout/titleicons.png) top left no-repeat;
+    margin-top:1em; margin-bottom:1em;
+    color:#333333; font-size:1.125em;/*18px/16*/ font-weight:600; padding-left:2em;}
+#description p{ padding-left:3em; margin-bottom:2em;
+    color:#999999; font-size:0.75em;/*12/16*/ text-align:justify;}
 
 
-
-
-
-
+#ingredients{border-bottom:1px solid #e6e6e6; width:94%;
+             padding-right:3%; padding-left:3%;}
+#ingredients h1{background:url(../images/layout/titleicons.png) 0 -36px no-repeat;
+    margin-top:1em; margin-bottom:1em;
+    color:#333333; font-size:1.125em;/*18px/16*/ font-weight:600; padding-left:2em;}
+#ingredientList{text-align:center;}
+#ingredients p{font-size:0.9375em;/*15px/16*/}
 
 
 

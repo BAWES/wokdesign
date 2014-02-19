@@ -6,6 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel='stylesheet' href='css/main.css?ver=1' type='text/css' />
+        <link rel="stylesheet" href="css/owl.carousel.css" type='text/css' />
+        <link rel="stylesheet" href="css/owl.theme.css" type='text/css' />
+
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
         <!--[if lt IE 8]>
         <link rel='stylesheet' href='css/ie7.css' type='text/css' />
@@ -15,6 +18,7 @@
         <link rel="icon" href="favicon.ico" type="image/x-icon">
 
         <script src="js/jquery-1.11.0.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
         <script src="js/jquery.touchSwipe.min.js"></script>
         <script src="js/unslider.min.js"></script>
 
@@ -58,22 +62,57 @@
         <!-- Content Area -->
         <section id='contentArea'>
             <section id="content">
-                
+
                 <!-- Start Content -->
                 <header id='box'>
                     <div class='rank'>Rank <span>22</span></div>
                     <img src='images/layout/defaultbox.jpg' alt='Box Image'/>
                     <h1>Box Name Goes Here <span>Lawrence Fernandez</span></h1>
                     <a href='#share' id='shareBtn'>Share This</a>
-                    
+
                     <a href='https://www.facebook.com/sharer/sharer.php?u=http://wokandgo.me' class='fbShare' target='_blank'></a>
                     <a href='http://www.twitter.com/share?text=messagehere&amp;url=http://wokandgo.me' class='twitterShare' target='_blank'></a>
-                    
+
                     <div class='boxesSold'>Total Boxes Sold <span>50</span></div>
                     <div class='clear'></div>
                 </header>
-                
-                
+
+                <section id='description'>
+                    <h1>Description</h1>
+                    <p>
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque 
+                        laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+                        Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia
+                        dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam
+                        quaerat voluptatem.
+                    </p>
+                </section>
+
+                <section id='ingredients'>
+                    <h1>Ingredients</h1>
+                    <div id='ingredientList' class='owl-carousel'>
+                        <div>
+                            <img src='images/ingredients/eggnoodles.jpg'/>
+                            <p>Egg Noodles</p>
+                        </div>
+                        <div>
+                            <img src='images/ingredients/shrimp.jpg'/>
+                            <p>Shrimp</p>
+                        </div>
+                        <div>
+                            <img src='images/ingredients/hotchilisauce.jpg'/>
+                            <p>Hot Chili Sauce</p>
+                        </div>
+                        <div>
+                            <img src='images/ingredients/carrots.jpg'/>
+                            <p>Carrots</p>
+                        </div>
+                        <div>
+                            <img src='images/ingredients/carrots.jpg'/>
+                            <p>Other Ingredient</p>
+                        </div>
+                    </div>
+                </section>
 
                 <!-- End Content -->
             </section>
