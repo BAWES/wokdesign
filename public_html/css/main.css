@@ -451,8 +451,15 @@ header#box a.twitterShare{background-position: -40px 0; }
     header#box h1 span{display:block; font-weight:400; font-size:0.5em;/*13px/26*/}
 }
 
-@media screen and (min-width:43.75em) { /*700px*/
-        
+@media screen and (min-width:45.3125em) { /*725px*/
+    header#box .boxesSold{font-size:0.9375em;/*15px/16*/ text-align:center; height:6.133333333333333em;/*122px/15*/
+        clear:none; float:right; padding:0; width:9.6875em;/*155px/16*/ background:#158cbf; color:#fff;
+    padding-top:2em;}
+    header#box .boxesSold span{display:block; font-weight:600; font-size:2.4em;/*36px/15*/ margin-top:-0.15em;}
+    
+    header#box #shareBtn{top:5.2em;right:15em;}
+    header#box a.twitterShare{top:4em; right:13em;}
+    header#box a.fbShare{top:4em; right:16em;}
 }
 
 
