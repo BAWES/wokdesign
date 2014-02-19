@@ -380,6 +380,32 @@ header#ranking a{
     #rankingList .boxDetails{ width:59.5%;}
 }
 
+/**************
+/** BOX PAGE **
+***************/
+
+header#box{background:url(../images/layout/headerbg.jpg) top left; 
+           background-size:cover; position:relative;}
+header#box .rank{color:#fff; background:#f79211; padding:0.5em; font-weight:600;}
+header#box img{float:left;}
+header#box h1{float:left; color:#fff; font-size:1em;/*26px/16*/ font-weight:600; padding-left:0.5em; padding-top:0.5em}
+header#box h1 span{display:block; font-weight:400; font-size:0.8em;/*13px/26*/}
+header#box .boxesSold{clear:both; width:100%; background:#158cbf; color:#fff;}
+
+header#box #shareBtn{background:#11739d url(../images/layout/shareicon.png) 20% 50% no-repeat; 
+                     padding-top:1.166666666666667em;
+                     padding-bottom:1.166666666666667em; padding-right:1.5em;
+                     padding-left:4.166666666666667em;
+                     color:#fff; font-size:0.75em;/*12px/16*/
+                     position:absolute; top:8em;right:5em;
+                     -webkit-border-radius: 5px; -moz-border-radius: 5px; 
+                     -khtml-border-radius: 5px; border-radius: 5px;
+}
+
+
+
+
+
 
 
 
