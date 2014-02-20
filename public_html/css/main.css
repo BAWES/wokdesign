@@ -462,6 +462,12 @@ header#box a.twitterShare{background-position: -40px 0; }
     header#box a.fbShare{top:4em; right:16em;}
 }
 
+/***********************
+* Generic Page Design  *
+************************/
+header#page{background:url(../images/layout/headerbg.jpg) top left; height:4.5em;/*122px/16*/}
+header#page h1{color:#fff; font-size:1.625em;/*26px/16*/ padding-top:0.65em; width:94%; margin:0 auto;}
+#pageContent{width:94%; margin:0 auto; padding-top:1.5em; padding-bottom:1.5em;}
 
 /********/
 /*DESKTOP ( MOVE THIS TO SEPERATE STYLESHEET)*/
